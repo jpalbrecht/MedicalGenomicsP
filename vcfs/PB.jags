@@ -1,0 +1,12 @@
+model{
+Z~dbin(q,M)
+q~dunif(0,1)
+for(j in 1:n.pop){
+lambda[j]~dunif(0,1)}
+lambda.srt<-sort(lambda)
+for(i in 1:N.snv){
+n.cat[i] ~ dcat(kappa)
+n.alt[i] ~ dbin(q*lambda.srt[n.cat[i]],n.tot[i])}
+kappa ~ ddirich(alpha[])
+pur<-max(lambda)
+}

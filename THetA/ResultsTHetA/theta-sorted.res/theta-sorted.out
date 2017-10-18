@@ -1,0 +1,18 @@
+../Programme/THetA/bin/CreateExomeInput: 2: ../Programme/THetA/bin/CreateExomeInput: Bad substitution
+[mpileup] 1 samples in 1 input files
+<mpileup> Set max per-file depth to 8000
+[mpileup] 1 samples in 1 input files
+<mpileup> Set max per-file depth to 8000
+=================================================
+Arguments are:
+	Segment File: theta-sorted.segment
+	Tumor BAM: ../malignant-sorted-dedup-reordered-recal-realigned-sorted.bam
+	Normal BAM: ../normal-sorted-dedup-reordered-recal-realigned-sorted.bam
+	FASTA File: ../hg19/ordered/hg19.sorted.fa
+	Exon Bed File: ../hg19/ordered/hg19.sorted.bed
+	Output Directory: ./
+	Output Prefix: theta-sorted
+	Min Alignment Quality: 30
+=================================================
+Tumor Read Length: 100
+Normal Read Length: 99

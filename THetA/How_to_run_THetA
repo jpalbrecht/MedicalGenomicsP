@@ -1,0 +1,16 @@
+open a shell:
+export  EIGENPATH=/home/phil/ownCloud/documents_master/Aktuelle_Fragestellung_MedBio/FinalReport/THetA/eigen/eigen3/
+export BNPYOUTDIR="/home/phil/ownCloud/documents_master/Aktuelle_Fragestellung_MedBio/FinalReport/THetA/bnpy-dev"
+export PYTHONPATH="${PYTHONPATH}:/home/phil/ownCloud/documents_master/Aktuelle_Fragestellung_MedBio/FinalReport/THetA/bnpy-dev/bnpy-dev"
+
+check in python2.7:
+import sys
+print sys.path
+	-> if "/home/phil/ownCloud/documents_master/Aktuelle_Fragestellung_MedBio/FinalReport/THetA/bnpy-dev/bnpy-dev" is in path go on!
+quit()
+
+cd /home/phil/ownCloud/documents_master/Aktuelle_Fragestellung_MedBio/FinalReport/THetA/THetA/bin
+
+./RunTHetA 
+
+

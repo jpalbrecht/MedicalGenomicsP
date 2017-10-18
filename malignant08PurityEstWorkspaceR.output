@@ -1,0 +1,48 @@
+> source('~/ownCloud/documents_master/Aktuelle_Fragestellung_MedBio/FinalReport/extractInfo.R')
+Compiling model graph
+   Resolving undeclared variables
+   Allocating nodes
+Graph information:
+   Observed stochastic nodes: 344
+   Unobserved stochastic nodes: 2
+   Total graph size: 696
+
+Initializing model
+
+  |++++++++++++++++++++++++++++++++++++++++++++++++++| 100%
+  |**************************************************| 100%
+  |**************************************************| 100%
+Compiling model graph
+   Resolving undeclared variables
+   Allocating nodes
+Graph information:
+   Observed stochastic nodes: 344
+   Unobserved stochastic nodes: 347
+   Total graph size: 1737
+
+Initializing model
+
+  |++++++++++++++++++++++++++++++++++++++++++++++++++| 100%
+  |**************************************************| 100%
+  |**************************************************| 100%
+[1] "PurBayes detected 1 population(s) of variants"
+  |**************************************************| 100%
+Purity Estimate
+      Median  2.5% Quant. 97.5% Quant. 
+   0.7065370    0.6881026    0.7254467 
+
+Number of Populations
+[1] 1
+
+Model Posterior Distributions
+       Median 2.5% Quant. 97.5% Quant.
+pur 0.7065370   0.6881026    0.7254467
+q   0.4637025   0.4628969    0.4645223
+
+Penalized Deviance Results
+ N.pop      PED    Delta SD(Delta) Ref_Model
+     1 2229.978   0.0000   0.00000         *
+     2 2335.439 105.4611  92.74435          
+[1] "PurityEst:"
+> print(purityEst)
+[1] 0.7064246

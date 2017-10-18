@@ -1,0 +1,47 @@
+Compiling model graph
+   Resolving undeclared variables
+   Allocating nodes
+Graph information:
+   Observed stochastic nodes: 291
+   Unobserved stochastic nodes: 2
+   Total graph size: 590
+
+Initializing model
+
+  |++++++++++++++++++++++++++++++++++++++++++++++++++| 100%
+  |**************************************************| 100%
+  |**************************************************| 100%
+Compiling model graph
+   Resolving undeclared variables
+   Allocating nodes
+Graph information:
+   Observed stochastic nodes: 291
+   Unobserved stochastic nodes: 294
+   Total graph size: 1472
+
+Initializing model
+
+  |++++++++++++++++++++++++++++++++++++++++++++++++++| 100%
+  |**************************************************| 100%
+  |**************************************************| 100%
+[1] "PurBayes detected 1 population(s) of variants"
+  |**************************************************| 100%
+Purity Estimate
+      Median  2.5% Quant. 97.5% Quant. 
+   0.7774978    0.7564128    0.7980875 
+
+Number of Populations
+[1] 1
+
+Model Posterior Distributions
+       Median 2.5% Quant. 97.5% Quant.
+pur 0.7774978   0.7564128    0.7980875
+q   0.4657515   0.4649277    0.4665579
+
+Penalized Deviance Results
+ N.pop      PED    Delta SD(Delta) Ref_Model
+     1 1790.392  0.00000   0.00000         *
+     2 1824.841 34.44925  68.44261 
+     
+ [1] "PurityEst:"
+ [1] 0.7773506

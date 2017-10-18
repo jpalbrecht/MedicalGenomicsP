@@ -1,0 +1,2 @@
+#!/bin/bash
+python /home/proft/Uni/Aktuelle_Fragstellungen/Programme/THetA/python/RunTHetA.py ./theta-sorted.n2.withBounds --TUMOR_FILE snp-files/malignant.withCounts --NORMAL_FILE snp-files/normal.withCounts -n 3 --RESULTS ./theta-sorted.n2.results
